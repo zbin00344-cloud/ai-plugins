@@ -1,0 +1,40 @@
+{
+  "name": "url-report-plugin",
+  "version": "0.1.0",
+  "description": "Generate a Markdown report for a URL with its HTTP status code and page title.",
+  "author": {
+    "name": "Example Author",
+    "email": "author@example.com",
+    "url": "https://example.com"
+  },
+  "homepage": "https://example.com/url-report-plugin",
+  "repository": "https://example.com/url-report-plugin.git",
+  "license": "MIT",
+  "keywords": [
+    "url",
+    "http",
+    "markdown",
+    "wsl"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "URL Report",
+    "shortDescription": "Fetch a URL title and HTTP status as Markdown.",
+    "longDescription": "A minimal Codex plugin example that runs a WSL Ubuntu shell script to inspect a website URL, collect the final HTTP status code, extract the HTML page title, and print a Markdown report.",
+    "developerName": "Example Author",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Shell"
+    ],
+    "websiteURL": "https://example.com",
+    "privacyPolicyURL": "https://example.com/privacy",
+    "termsOfServiceURL": "https://example.com/terms",
+    "defaultPrompt": [
+      "Create a URL report for https://example.com",
+      "Fetch the title and HTTP status for this site.",
+      "Generate a Markdown report for a website URL."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
