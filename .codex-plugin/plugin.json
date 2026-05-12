@@ -7,8 +7,8 @@
     "email": "author@example.com",
     "url": "https://example.com"
   },
-  "homepage": "https://example.com/url-report-plugin",
-  "repository": "https://example.com/url-report-plugin.git",
+  "homepage": "https://github.com/zbin00344-cloud/ai-plugins",
+  "repository": "https://github.com/zbin00344-cloud/ai-plugins.git",
   "license": "MIT",
   "keywords": [
     "url",
